@@ -1,10 +1,8 @@
 package cesarse.codility.lesson1.FrogJmp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import cesarse.codility.lesson1.FrogJmp.Solution;
 
 public class SolutionTest {
 

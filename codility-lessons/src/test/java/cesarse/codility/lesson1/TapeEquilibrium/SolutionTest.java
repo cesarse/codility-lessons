@@ -4,8 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import cesarse.codility.lesson1.TapeEquilibrium.Solution;
-
 public class SolutionTest {
 
 	@Test
