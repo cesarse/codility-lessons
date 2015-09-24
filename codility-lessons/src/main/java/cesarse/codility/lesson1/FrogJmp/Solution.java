@@ -1,7 +1,10 @@
 package cesarse.codility.lesson1.FrogJmp;
 
 /**
- * @see <a href="https://codility.com/demo/take-sample-test/frog_jmp/">Frog Jump lesson</a>.
+ * Count minimal number of jumps from position X to Y.
+ * 
+ * @see <a href="https://codility.com/programmers/task/frog_jmp">Frog Jump
+ *      task</a>.
  */
 public class Solution {
 
@@ -11,12 +14,13 @@ public class Solution {
 			return distance / D;
 		}
 		return distance / D + 1;
-    }
-	
+	}
+
 	/**
-	 * Same as {@link #solution(int, int, int) solution}, but using just one line.
+	 * Same as {@link #solution(int, int, int) solution}, but using just one
+	 * (unintelligible) line.
 	 */
-	public int unintelligibleSolution(int X, int Y, int D) {		
-		return (Y - X + D - 1)/D;
+	public int anotherSolution(int X, int Y, int D) {
+		return (Y - X + D - 1) / D;
 	}
 }

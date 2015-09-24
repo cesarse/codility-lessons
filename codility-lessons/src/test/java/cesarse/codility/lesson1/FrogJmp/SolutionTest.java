@@ -14,7 +14,7 @@ public class SolutionTest {
 		Solution s = new Solution();
 		int expected = 3;
 		assertEquals(expected, s.solution(X, Y, D));
-		assertEquals(expected, s.unintelligibleSolution(X, Y, D));
+		assertEquals(expected, s.anotherSolution(X, Y, D));
 	}
 	
 	@Test
@@ -25,7 +25,7 @@ public class SolutionTest {
 		Solution s = new Solution();
 		int expected = 999999999;
 		assertEquals(expected, s.solution(X, Y, D));
-		assertEquals(expected, s.unintelligibleSolution(X, Y, D));
+		assertEquals(expected, s.anotherSolution(X, Y, D));
 	}
 
 	@Test
@@ -36,7 +36,7 @@ public class SolutionTest {
 		Solution s = new Solution();
 		int expected = 0;
 		assertEquals(expected, s.solution(X, Y, D));
-		assertEquals(expected, s.unintelligibleSolution(X, Y, D));
+		assertEquals(expected, s.anotherSolution(X, Y, D));
 	}
 
 	@Test
@@ -47,7 +47,7 @@ public class SolutionTest {
 		Solution s = new Solution();
 		int expected = 0;
 		assertEquals(expected, s.solution(X, Y, D));
-		assertEquals(expected, s.unintelligibleSolution(X, Y, D));
+		assertEquals(expected, s.anotherSolution(X, Y, D));
 	}
 	
 	@Test
@@ -58,6 +58,6 @@ public class SolutionTest {
 		Solution s = new Solution();
 		int expected = 8;
 		assertEquals(expected, s.solution(X, Y, D));
-		assertEquals(expected, s.unintelligibleSolution(X, Y, D));
+		assertEquals(expected, s.anotherSolution(X, Y, D));
 	}
 }
